@@ -9,7 +9,7 @@ axios.get("https://dummyjson.com/products")
     setData(response.data)
     setGotData(true)
 })
-.catch(error => setData(`An error occurred: ${error.message}`))
+.catch(error => setData("An error occurred: "))
 })
     return (
     <div>
